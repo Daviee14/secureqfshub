@@ -37,6 +37,7 @@ import bitpay from './assets/bitpay.jpg';
 import imtoken from './assets/imtoken.jpg';
 import other from './assets/otherssss.jpg';
 import trustwallet from './assets/trustwallet.png'
+import { Shield } from 'lucide-react';
 
 const wallets = [
   { name: 'Metamask', icon: metamask },
