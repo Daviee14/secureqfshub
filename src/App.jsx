@@ -5,6 +5,12 @@ import Home from './Home';
 import WalletConnectPage from './WalletConnectPage';
 import Header from './Header';
 import MainPage from './MainPage';
+import SecurityPage from './Security';
+import PrivacyPolicy from './PrivacyPolicy';
+import Documentation from './Documentation';
+import TermsOfService from './TermsOfService';
+import CookiePolicy from './CookiePolicy';
+import StatusPage from './Status';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -26,6 +32,14 @@ function App() {
         </nav>
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/security" element={<SecurityPage />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/docs" element={<Documentation />} />
+          <Route path="/cookie" element={<CookiePolicy />} />
+          <Route path="/status" element={<StatusPage />} />
+
+          <Route path="/terms" element={<TermsOfService />} />
+
           <Route path="/connect" element={<Home />} />
           <Route path="/connect-wallet" element={<WalletConnectPage />} />
         </Routes>

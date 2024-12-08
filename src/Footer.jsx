@@ -7,18 +7,18 @@ const Footer = () => {
 
   const footerLinks = {
     Platform: [
-      { name: 'Features', path: '/features' },
+      { name: 'Features', path: '/' },
       { name: 'Security', path: '/security' },
       { name: 'Documentation', path: '/docs' }
     ],
     Legal: [
       { name: 'Privacy Policy', path: '/privacy' },
       { name: 'Terms of Service', path: '/terms' },
-      { name: 'Cookie Policy', path: '/cookies' }
+      { name: 'Cookie Policy', path: '/cookie' }
     ],
     Support: [
-      { name: 'Help Center', path: '/help' },
-      { name: 'Contact Us', path: '/contact' },
+      // { name: 'Help Center', path: '/' },
+      // { name: 'Contact Us', path: '/' },
       { name: 'Status', path: '/status' }
     ]
   };
@@ -72,7 +72,7 @@ const Footer = () => {
                 {links.map((link, index) => (
                   <li key={index}>
                     <Link
-                      // to={link.path}
+                      to={link.path}
                       className="text-gray-400 hover:text-blue-400 transition-colors text-sm hover:translate-x-1 inline-block"
                     >
                       {link.name}
