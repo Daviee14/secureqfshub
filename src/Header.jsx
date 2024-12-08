@@ -106,22 +106,10 @@ const Header = () => {
           <div className="bg-gray-800/95 backdrop-blur-md border-t border-gray-700/50 shadow-xl">
             <div className="container mx-auto px-4 py-4 space-y-4">
               {/* Mobile Products Menu */}
-              <div className="space-y-2">
-                <div className="font-medium text-gray-300 px-4">Products</div>
-                {['Wallet', 'Exchange', 'Analytics'].map((item) => (
-                  <Link
-                    key={item}
-                    // to={`/${item.toLowerCase()}`}
-                    className="block px-4 py-2 text-gray-400 hover:text-blue-400 hover:bg-gray-700/50 rounded-lg transition-colors duration-300"
-                    onClick={toggleMenu}
-                  >
-                    {item}
-                  </Link>
-                ))}
-              </div>
+              
 
               <Link
-                // to="/connect"
+                to="/connect"
                 className="block px-4 py-2 text-gray-400 hover:text-blue-400 hover:bg-gray-700/50 rounded-lg transition-colors duration-300"
                 onClick={toggleMenu}
               >
