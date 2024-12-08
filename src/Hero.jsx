@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRightIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import image from './assets/image.webp'
+import image from './assets/dal.webp'
 
 // Define the animations in a style tag since they're custom
 const styles = `

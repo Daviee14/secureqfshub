@@ -41,7 +41,7 @@ const Header = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {/* Products Dropdown */}
-            <div className="relative group">
+            {/* <div className="relative group">
               <button className="flex items-center space-x-1 text-gray-300 hover:text-blue-400 font-medium transition-colors duration-300">
                 <span>Products</span>
                 <ChevronDown size={16} className="group-hover:transform group-hover:rotate-180 transition-transform duration-300" />
@@ -61,7 +61,7 @@ const Header = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <Link
               // to="/connect"
