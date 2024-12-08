@@ -63,12 +63,12 @@ const Header = () => {
               </div>
             </div> */}
 
-            <Link
+            {/* <Link
               // to="/connect"
               className="text-gray-300 hover:text-blue-400 font-medium transition-colors duration-300"
             >
               Connect
-            </Link>
+            </Link> */}
             
             <Link
               // to="/contact"
@@ -78,10 +78,10 @@ const Header = () => {
             </Link>
 
             <Link
-              // to="/connect"
+              to="/connect"
               className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-6 py-2.5 rounded-full transition-all duration-300 font-semibold transform hover:-translate-y-0.5 hover:shadow-lg shadow-md"
             >
-              Launch App
+            Connect
             </Link>
           </div>
 
@@ -108,28 +108,22 @@ const Header = () => {
               {/* Mobile Products Menu */}
               
 
-              <Link
+              {/* <Link
                 to="/connect"
                 className="block px-4 py-2 text-gray-400 hover:text-blue-400 hover:bg-gray-700/50 rounded-lg transition-colors duration-300"
                 onClick={toggleMenu}
               >
                 Connect
-              </Link>
+              </Link> */}
+
+             ne
 
               <Link
-                // to="/contact"
-                className="block px-4 py-2 text-gray-400 hover:text-blue-400 hover:bg-gray-700/50 rounded-lg transition-colors duration-300"
-                onClick={toggleMenu}
-              >
-                Contact
-              </Link>
-
-              <Link
-                // to="/connect"
+                to="/connect"
                 className="block bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-6 py-3 rounded-lg transition-all duration-300 font-semibold text-center shadow-md hover:shadow-lg"
                 onClick={toggleMenu}
               >
-                Launch App
+                  Connect
               </Link>
             </div>
           </div>
